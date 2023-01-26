@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  /* background-color: linear-gradient(to right, var(red), var(green)); */
+}
+.container {
+  /* width: 100rem; */
+  margin: auto;
+  /* background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%); */
+  /* background: linear-gradient(127deg, #, rgba(0, 255, 0, 0) 70.71%); */
+  /* box-shadow: ;
+   */
+  background-image: linear-gradient(
+    to right top,
+    #bbd2c5,
+    #a3beb6,
+    #8daba8,
+    #79979a,
+    #67838b,
+    #5a7581,
+    #4f6876,
+    #455a6b,
+    #3c4f63,
+    #34445b,
+    #2e3952,
+    #292e49
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+  text-align: left;
+  /* margin: 10rem; */
+}
+
+.tablecontainer {
+  margin: 10rem;
+}
+.searchAndCreate {
+  display: flex;
+}
+.searchbox {
+  font-size: 2rem;
+  padding: 1rem;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid rgba(41, 40, 40, 0.658);
+  margin-right: 3rem;
+  /* width: 50%; */
+  /* margin-left: auto; */
+}
+.icon {
+  /* margin-left: auto; */
+  background: #000;
+}
+.userid {
+  width: 10%;
+}
+.id {
+  width: 10%;
+}
+.title {
+  width: 70%;
+}
+.completed {
+  width: 10%;
+}
+#createUser,
+.createSubmit,
+.create-completed {
+  padding: 1rem;
+  font-size: 1.5rem;
+  /* width: 50%; */
+  cursor: pointer;
+  background: transparent;
+}
+.heading {
+  font-size: 4rem;
+  margin: 2rem;
+  color: black;
+  font-weight: 200;
+}
+.sort-Ascending {
+  /* margin-left: auto; */
+  /* background-color: #fff; */
+  /* margin-left: 3rem; */
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.create-userid,
+.create-title {
+  font-size: 2rem;
+  padding: 1rem;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid rgba(41, 40, 40, 0.658);
+  margin-right: 3rem;
+}
+
+.option {
+  color: green;
+  background-color: hotpink;
+  font-weight: 700;
+}
